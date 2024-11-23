@@ -1,0 +1,36 @@
+body {
+
+    background-color: blueviolet;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    align-items: center;
+    transition: 0.3s cubic-bezier(0.213,0.355,1);
+
+ }
+
+
+ h2 {
+    color: white;
+    font-weight: 200px;
+ }
+
+button {
+    padding: 15px;
+    background: transparent;
+    border: 2px solid white;
+    color: #fff;
+    transition: 0.8s cubic-bezier(0.175,0.885,1.275);
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+button:active {
+    padding: 5px;
+}
+
