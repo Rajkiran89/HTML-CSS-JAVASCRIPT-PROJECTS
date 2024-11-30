@@ -1,0 +1,80 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+/* ➀  Position some text on the top left corner of an image */
+/* .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+} */
+
+
+/* ➁  Position some text on the top right corner of an image */
+/* .text-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: bisque;
+    color: white;
+} */
+
+
+/* ➂  Position some text on the bottom left corner of an image */
+/* .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    background-color: blueviolet;
+    color: azure;
+} */
+
+
+/* ➃  Position some text on the bottom right corner of an image */
+/* .text-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+    background-color: blueviolet;
+    color: azure;
+} */
+
+
+/* ➄  Position some text on the centre of an image */
+/* .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    color: blanchedalmond;
+} */
+
+
+/* ➅  Display some text fixed at a specific position in a page */
+/* .text-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: violet;
+    color: yellowgreen;
+} */
+
+
+/* ➆  Display some sticky text in a page */
+/* .sticky-text {
+    position: sticky;
+    top: 0;
+    background-color: chartreuse;
+    padding: 10px;
+} */

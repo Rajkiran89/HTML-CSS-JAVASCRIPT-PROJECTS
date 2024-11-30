@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* ➀  Set a margin of 10px to a button
+button {
+    margin: 10px;
+} */
+
+
+/* ➁  Set margin of 20px horizontally and 5px vertically to a paragraph
+p {
+    margin: 5px 20px;
+} */
+
+
+/* ➂  Set different margin values for each side of an h1 element */
+/* h1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    margin-right: 10px;
+} */

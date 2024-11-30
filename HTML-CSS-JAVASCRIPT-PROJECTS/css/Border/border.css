@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* ➀  Show dotted border to a paragraph
+.para {
+    border-style: dotted;
+    border-width: 2px;
+    padding: 10px;
+} */
+
+
+/* ➁  Set top border double, left border dotted, right border dashed and bottom border solid.
+.para {
+    border-top: double;
+    border-left: dotted;
+    border-right: dashed;
+    border-bottom: solid;
+    border-width: 2px;
+    padding: 10px;
+} */
+
+
+/* ➂  Set border of 3px, double and color yellow to a h1
+h1 {
+    border: 3px double yellow;
+} */
+
+
+/* ➃  Set the right border to dotted
+h1 {
+    border: 3px double rgb(159, 159, 10);
+    border-right: dotted;
+    padding: 10px;
+} */
+
+
+/* ➄  Draw a circle of radius 18px
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blueviolet;
+} */
+
+
+/* ➅  Draw an ellipse of radius 25px, 35px
+.circle {
+    height: 25px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: aqua;
+} */
+
+
+/* ➆  Draw a ring of radius 70px and width 15px
+.ring {
+    height: 140px;  diameter
+    width: 140px;
+    border-radius: 50%;
+    border: 15px solid blue;
+    background-color: transparent;
+} */
+

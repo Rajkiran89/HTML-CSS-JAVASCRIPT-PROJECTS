@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Abril Fatface";
+    display: flex;
+    background: #000;
+}
+
+
+.heading {
+    font-size: 10rem;
+    font-weight: 1000;
+     /* background-image: url(https://images.unsplash.com/photo-1495467033336-2effd8753d51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D);  */
+    background-image: url(https://plus.unsplash.com/premium_photo-1726001035069-4cf2bc4512b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D); 
+    /* background-image: url(); */
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+

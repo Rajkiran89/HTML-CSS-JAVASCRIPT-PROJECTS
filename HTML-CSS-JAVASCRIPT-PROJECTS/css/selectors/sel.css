@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container h1{
+    color: #2c3e50;
+}
+
+.container .description {
+    color: yellowgreen;
+    font-size: 1.1rem;
+}
+
+.box:hover {
+    background-color: pink;
+    color: green;
+}
+/* bakcground */
+
+body {
+    background-color: snow;
+}
+
+.box {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* border */
+
+.box {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+}
+
+/* margin */
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* padding */
+.container{
+    padding: 10px;
+}
+.button {
+    padding: 10px 20px;
+}
+/* button */
+.button {
+    outline: 2px solid goldenrod;
+    outline-offset: 4px;
+}
+.description {
+    text-align: justify;
+    text-transform: initial;
+    letter-spacing: 1px;
+}
+/* position */
+
+.box {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+/* overflow */
+.container {
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid  black;
+}
+/* height/width */
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+

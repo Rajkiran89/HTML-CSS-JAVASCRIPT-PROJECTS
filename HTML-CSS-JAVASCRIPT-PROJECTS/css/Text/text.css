@@ -1,0 +1,103 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+} */
+
+/* ➀  Center align the text inside a p element */
+/* p {
+    text-align: center;
+} */
+
+
+/* ➁  Justify the text inside a p element */
+/* p {
+    text-align: justify;
+} */
+
+
+/* ➂  Center align only the last line of text inside a p element */
+/* p:last-line {
+    text-align: center;
+  } */
+
+
+/* ➃  Justify the last line of text inside a p element */
+/* p:last-line {
+    text-align: justify;
+} */
+
+
+/* ➄  Style the text inside a paragraph to all uppercase */
+/* p {
+    text-transform: uppercase;
+} */
+
+
+/* ➅  Style the text inside a h1 to capitalized */
+/* h1 {
+    text-transform: capitalize;
+} */
+
+
+/* ➆  Remove underline from a hyperlink */
+/* a {
+    text-decoration: none;
+} */
+
+
+/* ➇  Strike through a text */
+/* p {
+    text-decoration: line-through;
+} */
+
+
+/* ➈  Display both overline and underline for a text */
+/* p {
+    text-decoration: overline underline;
+} */
+
+
+/* ➉  Give space of 7px between letters */
+/* p {
+    letter-spacing: 7px;
+} */
+
+
+/* ➀➀  Give space of 0.7 between lines in a paragraph */
+/* p {
+    line-height: 1;
+} */
+
+
+/* ➀➁  Give space of 12px between words */
+/* p {
+    word-spacing: 12px;
+} */
+
+
+/* ➀➂  Display a text in a paragraph from right-to-left */
+/* p {
+    direction: rtl;
+} */
+
+
+/* ➀➃  Indent the first line of a paragraph with 10px */
+/* p {
+    text-indent: 10px;
+} */
+
+
+/* ➀➄  Display shadow of 7px (both horizontally and vertically) to a text inside a div */
+/* div {
+    text-shadow: 7px 7px 2px black;(h,v,blur,color)
+} */
+
+
+/* ➀➅  Add a blur of 8px to the shadow */
+/* div {
+    text-shadow: 0px 0px 8px black;
+} */
+
+

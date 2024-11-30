@@ -1,0 +1,30 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* Colour all p elements to pink */
+P {
+    color: pink;
+}
+
+/* Colour the element with id "elem" to blue */
+#elem {
+    color: blue;
+}
+
+/* Colour all the elements with class "redpara" to red */
+.redpara {
+    color: red;
+}
+
+/* Colour all p and section elements green */
+
+section, p {
+    color: green;
+}
+
+
+

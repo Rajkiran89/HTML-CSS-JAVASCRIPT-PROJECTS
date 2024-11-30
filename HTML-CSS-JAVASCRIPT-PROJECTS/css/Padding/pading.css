@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+
+/* ➀  Set top padding of a h1 element to 20px */
+/* h1 {
+    padding-top: 20px;
+} */
+
+
+/* ➁  Set padding of 25px on each side to a paragraph */
+/* p {
+    padding: 25px;
+} */
+
+
+/* ➂  Set padding of 15px horizontally and 10px vertically to a paragraph */
+/* p {
+    padding: 10px 15px;
+} */

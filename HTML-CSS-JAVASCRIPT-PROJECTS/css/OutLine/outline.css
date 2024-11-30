@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+/* ➀  Set a 10px solid outline border for a div element */
+/* div {
+    outline: 10px solid black;
+} */
+
+
+/* ➁  Set the outline border color to green for a paragraph */
+/* p {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: green;
+} */
