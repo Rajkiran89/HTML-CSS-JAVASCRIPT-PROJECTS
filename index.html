@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin: 20px 0;
+      color: #333;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .grid-item {
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .grid-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .grid-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .grid-item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Projects</h1>
+  <a href="../index.html" class="back-button">⬅ Back to Projects</a>
+  <h1>Project Name</h1>
+  <p>Your project content goes here.</p>
+  <div class="grid-container">
+   
+  </div>
+  <script>
+    const projects = [
+      { name: "01.add Bgc to text", path: "01.add Bgc to text/bt.html" },
+      { name: "02.creative loading", path: "02.creative loading/cl.html" },
+      { name: "03.custom scrollbar", path: "03.custom scrollbar/scrl.html" },
+      { name: "04.creative image effect", path: "04.creative image effect/cie.html" },
+      { name: "btn1", path: "05.top five creative buttons/btn1/btn1.html" },
+      { name: "btn2", path: "05.top five creative buttons/btn2/btn2.html" },
+      { name: "btn3", path: "05.top five creative buttons/btn3/btn3.html" },
+      { name: "btn4", path: "05.top five creative buttons/btn4/btn4.html" },
+      { name: "btn5", path: "05.top five creative buttons/btn5/btn5.html" },
+      { name: "menu1", path: "06.Creative Menu/menu1/m1.html" },
+      { name: "menu2", path: "06.Creative Menu/menu2/m2.html" },
+      { name: "menu3", path: "06.Creative Menu/menu3/m3.html" },
+      { name: "07.Accordian", path: "07.Accordian/a.html" },
+      { name: "08.Animated Navigation", path: "08.Animated Navigation/an.html" },
+      { name: "09.Simple calc", path: "09.Simple calc/calc.html" },
+      { name: "10.Fade out", path: "10.Fade out/fo.html" },
+      { name: "011.copy and move", path: "011.copy and move/cp.html" },
+      { name: "012.progress steps", path: "012.progress steps/ps.html" },
+      { name: "013.Page Scroll Indicator", path: "013.Page Scroll Indicator/scroll.html" },
+      { name: "014.Heart", path: "014.Heart/Heart.html" },
+      { name: "015.bg color", path: "015.bg color/bgc.html" },
+      { name: "016.Auto Text", path: "016.Auto Text/Autotext.html" },
+      { name: "017.create toggler", path: "017.create toggler/tog.html" },
+      { name: "018.Lazy Loading", path: "018.Lazy Loading/ll.html" },
+      { name: "20.Emoji", path: "20.Emoji/em.html" },
+
+      
+    ];
+
+    const gridContainer = document.querySelector(".grid-container");
+
+    projects.forEach(project => {
+      const item = document.createElement("div");
+      item.classList.add("grid-item");
+
+      item.innerHTML = `
+        <img src="https://via.placeholder.com/100" alt="${project.name}">
+        <a href="${project.path}" target="_blank">${project.name}</a>
+      `;
+
+      gridContainer.appendChild(item);
+    });
+  </script>
+</body>
+</html>

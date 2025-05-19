@@ -5,6 +5,18 @@
     font-family: sans-serif;
 }
 
+h1 {
+    padding: 2px 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    display: flex;
+    background-color: #fff; /* Optional: adds contrast to the header */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
+
 body {
     background: crimson;
 }
